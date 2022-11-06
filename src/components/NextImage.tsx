@@ -26,7 +26,6 @@ export default function NextImage({
   src,
   width,
   height,
-  layout = 'fill',
   alt,
   className,
   imgClassName,
