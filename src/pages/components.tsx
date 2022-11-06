@@ -307,10 +307,9 @@ export default function ComponentsPage() {
                 </p>
                 <NextImage
                   useSkeleton
-                  className='relative h-56 w-32 rounded-md md:w-40'
+                  className='relative h-56 w-32 rounded-md object-contain md:w-40'
                   src='/images/nextjs-logo.png'
                   alt='Nextjs logo'
-                  objectFit='contain'
                 />
               </li>
               <li className='space-y-2'>
