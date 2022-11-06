@@ -1,7 +1,5 @@
 ![Screenshot from 2022-09-30 02-02-10](https://user-images.githubusercontent.com/54845047/193113996-25170f11-ee46-425e-875c-fc22c7bb82b1.png)
 
-
-
 <div align="center">
   <h1>🔋 ts-nextjs-tailwind-starter</h1>
   <p>Next.js + Tailwind CSS + TypeScript starter packed with useful development features.</p>
