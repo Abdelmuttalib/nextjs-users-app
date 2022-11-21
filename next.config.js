@@ -4,6 +4,11 @@ module.exports = {
     dirs: ['src'],
   },
 
+  // use experimental app directory
+  experimental: {
+    appDir: true,
+  },
+
   reactStrictMode: true,
 
   // Uncoment to add domain whitelist
