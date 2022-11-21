@@ -11,7 +11,7 @@ git clone git@github.com:Abdelmuttalib/nextjs-users-app.git
 ### 2. cd into the project directory:
 
 ```bash
-cd users-app
+cd nextjs-users-app
 ```
 
 ### 3. Install dependencies
