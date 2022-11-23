@@ -1,5 +1,3 @@
-import Vercel from '~/svg/Vercel.svg';
-
 /**
   <link
               rel='preload'
@@ -10,17 +8,18 @@ import Vercel from '~/svg/Vercel.svg';
             />
 */
 
+import Users from 'app/Users';
+
 const HomePage = () => {
   return (
     <main>
-      <section className='bg-white'>
-        <div className='layout flex min-h-screen flex-col items-center justify-center text-center'>
-          <Vercel className='text-7xl' />
-          <h1 className='mt-6 text-7xl'>Nextjs Users app</h1>
-        </div>
+      <section className='layout px-5'>
+        <Users />
       </section>
     </main>
   );
 };
 
 export default HomePage;
+
+//# sourceMappingURL=swiper-bundle.js.map

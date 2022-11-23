@@ -5,6 +5,9 @@ export default function Head() {
       <meta content='width=device-width, initial-scale=1' name='viewport' />
       <link rel='icon' href='/favicon.ico' />
 
+      {/* meta description */}
+      <meta name='description' content='users app'></meta>
+
       {/* font inter */}
       <link
         rel='preload'

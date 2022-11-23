@@ -4,11 +4,6 @@ import { UnstyledLink } from '@/components/links';
 
 import Vercel from '~/svg/Vercel.svg';
 
-// const headerNavLinks = [
-//   { href: '/', label: 'Route 1' },
-//   { href: '/', label: 'Route 2' },
-// ];
-
 // Header
 const Header = () => {
   return (
@@ -16,23 +11,11 @@ const Header = () => {
       <div className='layout flex h-14 items-center justify-between rounded-md bg-white/30 px-6 backdrop-blur-sm'>
         <UnstyledLink
           href='/'
-          openNewTab
-          className='inline-flex items-center gap-1 border-b-2 border-transparent font-bold duration-150 ease-linear hover:border-primary-600'
+          className='inline-flex items-center gap-1 border-b-2 border-transparent font-bold duration-150 ease-linear hover:border-primary-600 hover:bg-primary-50'
         >
           <Vercel />
           Users App
         </UnstyledLink>
-        {/* <nav>
-          <ul className='flex items-center justify-between space-x-4'>
-            {headerNavLinks.map(({ href, label }) => (
-              <li key={`${href}${label}`}>
-                <UnstyledLink href={href} className='hover:text-gray-600'>
-                  {label}
-                </UnstyledLink>
-              </li>
-            ))}
-          </ul>
-        </nav> */}
       </div>
     </header>
   );
@@ -41,7 +24,7 @@ const Header = () => {
 // Footer
 const Footer = () => {
   return (
-    <footer className='mt-20 w-full py-6 text-center text-gray-700'>
+    <footer className='relative mt-20 w-full border-t border-gray-100 py-6 text-center text-sm text-gray-500'>
       © {new Date().getFullYear()}
     </footer>
   );
@@ -53,11 +36,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html lang='en'>
       <head />
       <body>
         <Header />
-        <main>{children}</main>
+        <main className='min-h-[85vh]'>{children}</main>
         <Footer />
       </body>
     </html>
