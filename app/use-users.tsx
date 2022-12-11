@@ -15,7 +15,7 @@ const useUsers = () => {
     revalidateIfStale: false,
   });
 
-  const isLoading = data && !error;
+  const isLoading = !data && !error;
 
   const fetchMoreUsers = async (page: number) => {
     try {
