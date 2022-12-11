@@ -1,7 +1,6 @@
 # Nextjs Users App
+
 ![Screenshot 2022-11-23 at 17-51-56 Users App](https://user-images.githubusercontent.com/54845047/203516980-f43b412e-91b2-4e9d-9398-88e55bae0946.png)
-
-
 
 ## Getting Started
 
