@@ -17,7 +17,7 @@ const User: FC<UserT> = ({
         alt={`${first_name} avatar`}
         width={80}
         height={80}
-        className='rounded-full bg-blue-200'
+        className='rounded-full'
       />
       <div>
         <p className='text-sm font-medium md:text-base'>
