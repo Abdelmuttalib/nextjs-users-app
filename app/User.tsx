@@ -11,15 +11,15 @@ const User: FC<UserT> = ({
   email,
 }: UserT): ReactElement => {
   return (
-    <div className='relative my-2 grid auto-cols-max grid-flow-col grid-cols-2-full items-center gap-2 rounded-lg border-2 border-gray-700 bg-white px-3 py-1.5 shadow-lg md:py-2.5 md:px-5'>
+    <div className='relative my-2 grid auto-cols-max grid-flow-col items-center gap-2 rounded-lg border-2 border-gray-700 bg-white px-3 py-1.5 shadow-lg md:py-2.5 md:px-5'>
       <Image
         src={avatar}
         alt={`${first_name} avatar`}
         width={80}
         height={80}
-        className='rounded-full'
+        className='rounded-full bg-blue-200'
       />
-      <div className='w-full'>
+      <div>
         <p className='text-sm font-medium md:text-base'>
           {first_name} {last_name}
         </p>
