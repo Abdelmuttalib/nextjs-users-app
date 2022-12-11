@@ -34,7 +34,7 @@ const User: FC<UserT> = ({
 export default User;
 
 export const UserLoader: FC = (): ReactElement => (
-  <div className='my-2 flex w-64 items-center gap-2 rounded py-1.5 px-3 shadow-lg ring-2 ring-gray-700 ring-offset-2 md:w-80 md:py-2.5 md:px-5'>
+  <div className='relative my-2 grid auto-cols-max grid-flow-col items-center gap-2 rounded-lg border-2 border-gray-700 bg-white px-3 py-1.5 shadow-lg md:py-2.5 md:px-5'>
     <SkeletonLoader className='h-20 w-20 rounded-full' />
     <div className='flex flex-col gap-1'>
       <div className='font-medium'>
