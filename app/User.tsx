@@ -11,7 +11,7 @@ const User: FC<UserT> = ({
   email,
 }: UserT): ReactElement => {
   return (
-    <div className='relative my-2 grid auto-cols-max grid-flow-col items-center gap-2 rounded-lg border-2 border-gray-700 bg-white px-3 py-1.5 shadow-lg md:py-2.5 md:px-5'>
+    <div className='relative my-2 grid auto-cols-max grid-flow-col items-center gap-3 rounded-lg border-2 border-gray-700 bg-white px-3 py-1.5 shadow-lg md:py-2.5 md:px-5'>
       <Image
         src={avatar}
         alt={`${first_name} avatar`}
